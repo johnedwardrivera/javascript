@@ -1,0 +1,33 @@
+body {
+  /* font-family: "Inconsolata", monospace; */
+  font-family: "Quintessential", cursive;
+  background-color: #f8f9fa !important;
+  background-image: linear-gradient(
+    135deg,
+    #00b7d4,
+    #505488,
+    #161569,
+    #5a4894,
+    #a950a1,
+    #ff7cae
+  );
+  background-size: 500%;
+  animation: fanimado 10s infinite;
+}
+.text {
+  color: white;
+  text-align: center;
+  margin: 300px 0;
+  font-size: 28px;
+}
+@keyframes fanimado {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
